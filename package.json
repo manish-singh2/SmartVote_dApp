@@ -1,0 +1,29 @@
+{
+  "name": "techdot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "ethereumjs-testrpc": "^6.0.3",
+    "express": "^4.16.3",
+    "morgan": "^1.10.0",
+    "password-hash": "^1.2.2",
+    "request": "^2.88.2",
+    "solc": "^0.4.11",
+    "web3": "^0.19.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanattaori/techdot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanattaori/techdot/issues"
+  },
+  "homepage": "https://github.com/sanattaori/techdot#readme"
+}
