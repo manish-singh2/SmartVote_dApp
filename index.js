@@ -3,7 +3,6 @@ var morgan = require('morgan');
 var path = require('path');
 var bodyParser = require('body-parser');	
 var passwordHash = require('password-hash');
-var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
 var request = require('request');
 var fs = require('fs');
