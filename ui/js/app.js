@@ -28,10 +28,10 @@ window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('getotp', {
 });
 // [END appVerifier]
 
-recaptchaVerifier.render().then(function(widgetId) {
-  window.recaptchaWidgetId = widgetId;
-  //  updateSignInButtonUI();
-});
+// recaptchaVerifier.render().then(function(widgetId) {
+//   window.recaptchaWidgetId = widgetId;
+//   //  updateSignInButtonUI();
+// });
 
 var aadhaar_no_phone_no = {
   // aadhar number and your mobile number for Otp verificaion
