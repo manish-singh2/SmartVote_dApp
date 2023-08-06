@@ -35,7 +35,7 @@ window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('getotp', {
 
 var aadhaar_no_phone_no = {
   // aadhar number and your mobile number for Otp verificaion
-  "123456789012": "98xxxxxxxx",
+  "123456789012": "9812345671",
   "987654321098": "70xxxxxxxx"
 }
 
