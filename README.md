@@ -16,7 +16,7 @@ Project implemented as part of Rajasthan Hackathron
 
 Clone Project
 ```
-git clone git@github.com:sanattaori/techdot.git && cd techdot
+git clone https://github.com/manish-singh2/SmartVote_dApp.git && cd techdot
 ```
 Install Dependencies
 ```
@@ -35,7 +35,7 @@ Again Install dependencies and run project.
 
 ### Running Project
 Step 1 - Setting up Environment
-Instead of developing the app against the live Ethereum blockchain, we have used an in-memory blockchain (think of it as a blockchain simulator) called testrpc.
+Instead of developing the app against the live Ethereum blockchain, we have used an in-memory blockchain (think of it as a blockchain simulator) called testrpc or you can use ganache Truffle suite download it in you pc. 
 
 ```
 npm install ethereumjs-testrpc web3
@@ -97,7 +97,7 @@ copy address of first account
 $ ganache-cli
 ```
 Paste this adderess to 
-ui/js/clist.js line 17
+ui/js/clist.js line 17 
 https://github.com/sanattaori/techdot/blob/cecabc1917965ed7404e4c444b7572c97e10dcf9/ui/js/clist.js#L17
 
 
